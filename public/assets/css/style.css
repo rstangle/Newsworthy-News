@@ -1,0 +1,56 @@
+
+body {
+	background-color: black;
+}
+
+.jumbotron {
+	background-image: url("../images/typewriter.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*background-attachment: fixed;*/
+	background-color: black;
+	/*padding-bottom: 15rem;*/
+	height: 618px;
+	padding: 0rem;
+	position: relative;
+	z-index: 0;
+}
+
+#masthead {
+	position: relative;
+	top: 5rem;
+	z-index: 5;
+	font-family: 'Special Elite', cursive;
+}
+/*.container > .display-3 {
+	font-family: 'Special Elite', cursive;
+}*/
+
+.card {
+	background-color: transparent;
+	border: grey 1px solid;
+	border-radius: 0px;	
+	margin: 0rem auto 2rem auto;
+}
+
+.card-title {
+	color: white;
+	font-family: 'Special Elite', cursive;
+}
+
+hr {
+	border-color: grey;
+}
+.card-text {
+	color: white;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 1.25rem;
+}
+
+#saveButton {
+	border-radius: 0px;
+}
+
+.btn {
+	border-radius: 0px;
+}
