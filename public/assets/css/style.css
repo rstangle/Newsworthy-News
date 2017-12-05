@@ -28,7 +28,7 @@ body {
 
 .card {
 	background-color: transparent;
-	border: grey 1px solid;
+	border: #333333 1.5px solid;
 	border-radius: 0px;	
 	margin: 0rem auto 2rem auto;
 }
@@ -39,10 +39,10 @@ body {
 }
 
 hr {
-	border-color: grey;
+	border-color: #333333;
 }
 .card-text {
-	color: white;
+	color: #999999;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 1.25rem;
 }
@@ -53,4 +53,14 @@ hr {
 
 .btn {
 	border-radius: 0px;
+}
+
+#footer {
+	margin-top: 15rem;
+	text-align: center;
+	/*min-height: 15rem;*/
+}
+
+.credit {
+	text-align: center;
 }
