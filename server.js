@@ -45,7 +45,7 @@ app.get("/scrape", function(req, res) {
     var $ = cheerio.load(response.data);
 
     // Now, we grab every h2 within an article tag, and do the following:
-    $("article h2").each(function(i, element) {
+    $("article h2.story-heading").each(function(i, element) {
       // Save an empty result object
       var result = {};
 
